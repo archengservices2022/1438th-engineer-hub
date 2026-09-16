@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/assets/home-hero.webp",
+      "destination": "https://raw.githubusercontent.com/archengservices2022/1438th-engineer-hub/main/assets/home-hero.webp"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/home-hero.webp",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    }
+  ]
+}
