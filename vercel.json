@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/assets/home-hero.webp",
-      "destination": "https://raw.githubusercontent.com/archengservices2022/1438th-engineer-hub/main/assets/home-hero.webp",
-      "permanent": false
-    }
-  ]
-}

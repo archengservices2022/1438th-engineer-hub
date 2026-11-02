@@ -1,0 +1,7 @@
+node_modules/
+.firebase/
+.env*
+!.env.example
+.vercel/
+dist/
+*service-account*.json

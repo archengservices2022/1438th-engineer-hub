@@ -1,0 +1,42 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firestore.rules",
+      "**/*.md",
+      "scripts/**",
+      "firebase.json",
+      "functions/**",
+      "**/.*",
+      "SETUP.md",
+      "*service-account*.json",
+      "package*.json",
+      "api/**",
+      "firestore.indexes.json",
+      "vercel.json",
+      "server/**",
+      "dist/**",
+      "tests/**",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true,
+    "headers": [
+      {
+        "source": "**/*.@(js|css)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      }
+    ]
+  },
+  "functions": {
+    "source": "functions"
+  }
+}
